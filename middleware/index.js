@@ -12,4 +12,4 @@ app.get('/ride1',function(req,res){
        res.send(411).json({msg:'sorry you cant ride'}) 
     }
 })
-app.listen(3000,()=>{console.log('working fine')})
+app.listen(3000,()=>{console.log('working fine')}) 
